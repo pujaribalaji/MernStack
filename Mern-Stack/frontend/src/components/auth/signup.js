@@ -13,15 +13,28 @@ function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!formData.name || !formData.email || !formData.password) {
+      alert("Please fill in all the required fields.");
+      return;
+    }
+
     try {
       const response = await Axios.post(
         "http://localhost:5000/user/signup",
         formData
       );
       console.log(response.data);
-      navigate("/login");
+      if (response.data.message === "Email address already exists") {
+        alert("Email address already exists");
+      } else {
+        navigate("/login");
+      }
     } catch (error) {
-      console.log("Signup Error:", error);
+      if (error.response && error.response.data) {
+        console.log("Signup Error:", error.response.data);
+      } else {
+        console.log("Signup Error:", error.message);
+      }
     }
   };
   const handleChange = (e) => {
