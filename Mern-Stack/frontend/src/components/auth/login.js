@@ -27,9 +27,9 @@ const Login = () => {
           <hr className="line2" />
         </div>
         <div>
-          <a>
-            <button className="button1">Sign in with Google</button>
-          </a>
+          
+            <button  className="button1">Sign in with Google</button>
+
         </div>
       </div>
     </>
