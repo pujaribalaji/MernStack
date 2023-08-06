@@ -1,0 +1,149 @@
+.hero-container {
+  min-height: 100vh; /* Set the container to the full viewport height */
+  background-image: url("../asserts/HeroSection1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+.hero {
+  display: flex;
+}
+.img0 {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.text0 {
+  color: white;
+  font-size: 30px;
+  margin-left: 18px;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text1 {
+  color: #ff6b00;
+  font-size: 30px;
+  margin-left: 110px;
+  margin-top: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-top: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.button0 {
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-left: 160px;
+  margin-top: 33px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text3 {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text4 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box0 {
+  background-color: white;
+  border-radius: 100px;
+  width: 700px;
+  height: 60px;
+  margin-left: 279px;
+  margin-top: 40px;
+}
+.p1 {
+  padding-left: 33px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.p2 {
+  padding-left: 33px;
+  margin-top: -10px;
+  color: #666;
+}
+.svg0 {
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 130px;
+}
+.hr0 {
+  background-color: #d9d9d9;
+  width: 0px;
+  height: 40px;
+  outline: none;
+  margin-top: -58px;
+  margin-left: 180px;
+}
+
+@media (max-width: 500px) {
+  .hero {
+    font-size: 20px;
+  }
+}
+
+.text5 {
+  margin-top: 50px;
+  text-align: center;
+  color: #002e74;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text6 {
+  color: #666;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.di{
+    display: flex;
+}
+.di1{
+    display: flex;
+}
+.box1{
+   
+    margin-top: 30px;
+    margin-left: 28px;
+    width: 380px;
+height: 191px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #a00d0d;
+}
