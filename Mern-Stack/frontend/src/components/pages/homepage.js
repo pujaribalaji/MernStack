@@ -7,7 +7,7 @@ import car from "../asserts/car.svg";
 import park from "../asserts/park.svg";
 import b1 from "../asserts/b1.svg";
 import sara from "../asserts/sara.svg";
-import footer from "../asserts/footer.svg"
+import footer from "../asserts/footer.svg";
 import "./homepage.css";
 import { Link } from "react-router-dom";
 
@@ -170,34 +170,34 @@ const Homepage = () => {
         </div>
       </div>
       <div className="container6">
-        <div className="text27">
-        To Stay Updated With Us
-        </div>
-        <div >
-            <input className="inp1" type="email" placeholder="Joe@gmail.com"></input>
-            <div className="box5">
-<p className="text28">Subscribe</p>
-            </div>
+        <div className="text27">To Stay Updated With Us</div>
+        <div>
+          <input
+            className="inp1"
+            type="email"
+            placeholder="Joe@gmail.com"
+          ></input>
+          <div className="box5">
+            <p className="text28">Subscribe</p>
+          </div>
         </div>
       </div>
       <div className="footer">
         <div className="foo1">
-        <img src={logo} height={60} width={50} alt="Logo" />
-        <p className="text29">UrbaNest</p>
+          <img src={logo} height={60} width={50} alt="Logo" />
+          <p className="text29">UrbaNest</p>
         </div>
         <div className="foo2">
-            <p className="text30">Reviews</p>
-            <p className="text30">Apartments</p>
-            <p className="text30">Blogs</p>
-            <p className="text30">About us</p>
+          <p className="text30">Reviews</p>
+          <p className="text30">Apartments</p>
+          <p className="text30">Blogs</p>
+          <p className="text30">About us</p>
         </div>
         <div className="foo3">
-        Copyright © 2023 UrbaNest. All rights reserved.
+          Copyright © 2023 UrbaNest. All rights reserved.
         </div>
         <p className="foo4">Developed by Pujari Balaji</p>
-<div className="foo5">
-
-</div>
+        <div className="foo5"></div>
       </div>
     </>
   );
