@@ -7,6 +7,7 @@ import car from "../asserts/car.svg";
 import park from "../asserts/park.svg";
 import b1 from "../asserts/b1.svg";
 import sara from "../asserts/sara.svg";
+import footer from "../asserts/footer.svg";
 import "./homepage.css";
 import { Link } from "react-router-dom";
 
